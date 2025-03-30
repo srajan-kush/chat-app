@@ -1,9 +1,5 @@
 # ✨ Full Stack Realtime Chat App ✨
 
-![Demo App](/frontend/public/screenshot-for-readme.png)
-
-[📺 Video Tutorial on YouTube](https://youtu.be/ntKkVrQqBYY)
-
 ## 🚀 Features
 
 - 🌟 **Tech Stack**: MERN + Socket.io + TailwindCSS + Daisy UI
@@ -36,17 +32,44 @@ NODE_ENV=development
 
 ---
 
+## 🛠️ Clone the Repository
+
+```sh
+git clone https://github.com/srajan-kush/chat-app.git
+cd chat-app
+```
+
+---
+
 ## 🛠️ Build the App
 
 ```sh
 npm run build
 ```
 
-## ▶️ Start the App
+---
+
+## ▶️ Start the Backend
 
 ```sh
-npm start
+cd backend
+npm install
+npm run dev
 ```
+
+---
+
+## ▶️ Start the Frontend
+
+```sh
+cd frontend
+npm install
+npm run dev
+```
+---
+## Screenshot
+
+![Screenshot 2025-03-30 102509](https://github.com/user-attachments/assets/fcd436ce-c49e-4a7d-9b3b-87c34e103c3a)
 
 ---
 
